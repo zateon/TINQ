@@ -1,0 +1,37 @@
+body {
+		  background-color:#000000;
+          color:#99ff00;
+	}
+a:link {color:grey;
+           text-decoration:none;
+	}
+	
+a:visited {color:grey;
+              text-decoration:none;     
+}
+
+a:hover {color:grey;
+               text-decoration:underline;
+	}
+	
+#logout { position:absolute;
+			  top:5px;
+			  right:10px;
+	}
+
+.left {	position:absolute;
+		left:150px;
+}
+
+.right { position:absolute;
+		  right:150px;
+}
+
+.lefti {	position:absolute;
+		left:140px;
+}
+
+.righti { position:absolute;
+		  right:100px;
+		  color:grey;
+}

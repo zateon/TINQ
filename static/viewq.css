@@ -1,0 +1,22 @@
+body {
+		  background-color:#000000;
+          color:#ffffff;
+		  position:absolute;
+		  left:30px
+	}
+a:link {color:grey;
+           text-decoration:none;
+	}
+
+a:visited {color:grey;
+              text-decoration:none;     
+}
+
+a:hover {color:grey;
+               text-decoration:underline;
+	}
+#logout { position:absolute;
+			  top:5px;
+			  right:-170px;
+			  
+	}

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+<head>
+<link rel="stylesheet" type="text/css" href="static/viewq.css" />
+</head>
+
+<body>
+	<br><br>
+	<b style="color:#99ff00">Name</b><br>
+	{{ set.name }} <br><br>
+	<b style="color:#99ff00">Comment</b><br>
+	{% filter escape|linebreaks %}
+	{{ set.comment }}
+	{% endfilter %}<br>
+	<b style="color:#99ff00">Questions</b><br>
+	{% filter escape|linebreaks %}
+	{{ set.qtlist }}
+	{% endfilter %}<br>
+	</div>
+	<div id="logout"> <a href = "{{ logout }}" > logout </a>
+	</div>
+	<form action="" method="post">
+	<b style="color:#99ff00">Post Answers</b><br>
+	<textarea rows="10" cols="45" name="answer" id="answer"></textarea><br>
+	<input type="submit" value="submit" /><br>
+	</form>
+	
+</body>

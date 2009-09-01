@@ -1,0 +1,23 @@
+application: tinq
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /
+  script: frontpage.py
+
+- url: /user.*
+  script: user.py
+  
+- url: /view.*
+  script: viewquiz.py
+  
+- url: /about.html
+  script: about.py
+
+- url: /.*
+  script: mtnfpy.py 

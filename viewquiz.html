@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+<head>
+<link rel="stylesheet" type="text/css" href="static/view.css" />
+</head>
+
+<body>
+	<h2 style="text-align:center"> QUIZZES </h2>
+	<br><br>
+	<div class="left" > <b>Quiz-Name </b>
+	</div> 
+	<div class="right" > <b> By </b></div><br><br>
+	
+	{% for quiz in quizes %}
+		<div class="lefti"> <a href="/view_{{ quiz.key }}"> {{quiz.name}} </a> </div>
+		<div class="righti"> {{ quiz.uid.nickname }} </div><br>
+	{% endfor %}
+	
+	<div id="logout"> <a href = "{{ logout }}" > logout </a>
+	</div>
+</body>

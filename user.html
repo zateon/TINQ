@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+<head>
+<link rel="stylesheet" type="text/css" href="static/user.css" />
+</head>
+
+<body>
+
+	<div id = "main" >
+		<h2> welcome <p style="color:#ffffff" > {{ member.uid.nickname }}   </p></h2>
+		<br><br><br><br><br>
+		<p> &lt blah blah blah whatever u want to add ......... ajaxify etc.... dashboard type........ &gt </p>
+	</div>
+
+	<div id = "margin" >
+		<b>Quiz</b> 
+		<ul>
+			{% ifnotequal member.type test %}
+				<li><a href="/user_createquiz.html">Create</a></li>
+			{% endifnotequal %}
+			<li><a href="/viewquiz.html">View</a></li>
+		</ul>
+	</div>
+	<div id="logout"> <a href = "{{ logout }}" > logout </a>
+	</div>
+
+</body>

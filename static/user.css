@@ -1,0 +1,36 @@
+body { 
+		   background-color:#000000;
+		   color:#ffffff;
+}
+
+a:link {color:grey;
+           text-decoration:none;
+}
+ 
+a:visited {color:grey;
+           text-decoration:none;
+}
+
+a:hover {color:grey;
+               text-decoration:underline;
+}
+
+#main { color:#99ff00;
+			font-family:Tahoma,Verdana,Sans-Serif;
+			position:absolute;
+			left:200px;
+			top:50px;
+}
+
+#margin { color:#ffffff;
+				font-family:Tahoma,Verdana,Sans-Serif;
+				position:absolute;
+				left:10px;
+				top:200px;
+}
+
+#logout { position:absolute;
+			  top:5px;
+			  right:10px;
+}
+			

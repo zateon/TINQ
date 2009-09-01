@@ -1,0 +1,61 @@
+body { background-image:url("TINQ.png");
+           background-repeat:no-repeat;
+		   background-color:#000000;
+		   color:#ffffff;
+}
+
+a:link {color:grey;
+           text-decoration:none;
+}
+ 
+
+a:visited {color:grey;
+           text-decoration:none;
+}
+
+a:hover {color:grey;
+               text-decoration:underline;
+}
+
+#div1 {
+            font-family:Tahoma,Verdana,Sans-Serif;
+			text-align:right;
+			margin-top:0px;
+			margin-right:20px;
+			
+}
+
+/*a {color:grey} */
+
+.line{
+         position:absolute;
+         color:#99ff00;
+		 top:585px;
+		 left:400px;
+}		 
+.pagefooter {
+					position:absolute;
+				     top:620px;
+					left:450px;
+}
+.new{
+         position:absolute;
+         top:300px;
+		 right:20px;
+		 font-family:Tahoma,Verdana,Sans-Serif;
+		 font-size:10px
+		 /*font-weight:bold;*/
+}
+.sign{
+         position:absolute;
+		 top:346px;
+		 right:50px;
+		 font-family:Tahoma,Verdana,Sans-Serif;
+		 }
+.version{
+             color:grey;
+			 position:absolute;
+			 top:232px;
+			 right:50px;
+			 font-weight:bold;
+}
